@@ -1,7 +1,11 @@
-const Space = (id, coord, value, next) => {
-    const id = id;
-    const coord = coord;
-    const value = value;
-    const next = next;
+class Space {
+    constructor(id, coord, value, next) {            
+        this.id = id;
+        this.coord = coord;
+        this.value = value;
+        this.next = next;
+    }
 
 }
+
+export default Space
