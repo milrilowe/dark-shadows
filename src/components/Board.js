@@ -8,10 +8,12 @@ class Board {
             const space = new Space(s.id, s.coord, s.value, s.next);
             this.board.push(space);
         })
-        console.log(this.board)
     }
 
-
+    toString() {
+        return this.board;
+    }
 }
+
 
 export default Board

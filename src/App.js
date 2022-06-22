@@ -5,7 +5,9 @@ import Board from './components/Board.js'
 function App() {
   const deck = new Deck();
   const board = new Board();
-  
+
+  console.log(board.toString())
+
   return (
     <div className="App">
       <header className="App-header">
