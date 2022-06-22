@@ -32,6 +32,13 @@ class Deck {
     }
 
     /**
+     * 
+     */
+    dealCard() {
+        return this.deck.shift();
+    }
+
+    /**
      * Returns the deck to be printed
      */
     toString() {

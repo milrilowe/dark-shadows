@@ -6,7 +6,11 @@ function App() {
   const deck = new Deck();
   const board = new Board();
 
-  console.log(board.toString())
+  //We need a draw pile and a discard pile
+  //We need a HAND
+  //these are all decks? or new object called pile
+
+  
 
   return (
     <div className="App">
