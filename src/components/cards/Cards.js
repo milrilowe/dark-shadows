@@ -1,12 +1,12 @@
 const SUITES = [
-    "bat", "spider", "goblet", "dagger"
+    "Bat", "Spider", "Goblet", "Dagger"
 ]
 
 const VALUES = [
     "Barnabas",
     "Vampire", "Vampire",
-    "single", "single", "single", "single", "single", 
-    "double", "double", "double", "double", "double",
+    "Single", "Single", "Single", "Single", "Single", 
+    "Double", "Double", "Double", "Double", "Double",
 ]
 
 export {

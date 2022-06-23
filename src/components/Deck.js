@@ -32,25 +32,28 @@ class Deck extends Component {
   }
 
     /**
-     * 
-     */
-    dealCard() {
-        return this.deck.shift();
-    }
-
-    /**
      * Returns the deck to be printed
      */
     toString() {
         return this.deck;
     }
 
+    /**
+     * Returns cards drawn
+     */
     draw(numToDraw) {
         let cards = [];
         for (let i = 0; i < numToDraw; i++) {
             cards.push(this.deck.pop());
         }
         return cards;
+    }
+
+    /**
+     * Returns length
+     */
+    getLength() {
+        return this.deck.length;
     }
 
     render() {

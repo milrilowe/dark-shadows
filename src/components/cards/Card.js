@@ -1,5 +1,10 @@
 import React, {Component} from "react"
 
+/**
+ * Suit Value pair - not a standard deck of cards
+ * Suits: Bat, Spider, Goblet, Dagger
+ * Values: Barnabas, Vampire, Single, Double
+ */
 class Card extends Component{
     constructor(props) {
         super(props);
