@@ -13,10 +13,16 @@ function App() {
   const board = new Board();
   const player1 = new Player(0, deck.draw(4), 1);
 
+<<<<<<< HEAD
   console.log(player1.showPlayerInfo(), "here");
 
   // console.log(board.toString());
   console.log(deck.toString());
+=======
+  //We need a draw pile and a discard pile
+  //We need a HAND
+  //these are all decks? or new object called pile
+>>>>>>> 2820a948f05fd3b3732f7f818ecedbe0ed78ecce
 
   return (
     <div className="App">

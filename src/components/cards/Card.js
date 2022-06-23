@@ -12,14 +12,23 @@ class Card extends Component{
         this.value = props.value;
     }
 
-    getSuite() {
+    /**
+     * Returns suit
+     */
+    getSuit() {
         return this.suit;
     }
 
+    /**
+     * Returns value
+     */
     getValue () {
         return this.value;
     }
 
+    /**
+     * 
+     */
     toString() {
         return `${this.value} ${this.suit}`
     }
