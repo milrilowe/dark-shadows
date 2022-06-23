@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  background: rgb(52, 52, 104);
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.container:hover {
+  background: rgb(65, 65, 119);
+  cursor: pointer;
+}
