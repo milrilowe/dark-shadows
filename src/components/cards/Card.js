@@ -1,13 +1,14 @@
 import React, {Component} from "react"
 
 class Card extends Component{
-    constructor(suite, value) {
-        this.suite = suite;
-        this.value = value;
+    constructor(props) {
+        super(props);
+        this.suit = props.suit;
+        this.value = props.value;
     }
 
     getSuite() {
-        return this.suite;
+        return this.suit;
     }
 
     getValue () {
@@ -15,7 +16,7 @@ class Card extends Component{
     }
 
     toString() {
-        return `${this.value} ${this.suite}`
+        return `${this.value} ${this.suit}`
     }
 
     render() {

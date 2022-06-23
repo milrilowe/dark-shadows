@@ -1,16 +1,19 @@
+import React, {Component} from "react"
+
 import { SUITES, VALUES } from "./cards/Cards.js";
 
 import Card from "./cards/Card.js";
 
 /**
- * 52 cards of 4 suites
+ * 52 cards of 4 suits
  */
-class Deck {
-  constructor() {
+class Deck extends Component {
+  constructor(props) {
+    super(props)
     this.deck = [];
-    const suites = SUITES.map((suite) => {
+    const suits = SUITES.map((suit) => {
       const values = VALUES.map((value) => {
-        const card = new Card(suite, value);
+        const card = new Card({suit, value});
         this.deck.push(card);
       });
     });
@@ -49,6 +52,11 @@ class Deck {
         }
         return cards;
     }
+
+    render() {
+        return
+    }
+
 }
 
 export default Deck;
